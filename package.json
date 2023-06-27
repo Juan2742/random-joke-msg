@@ -1,0 +1,27 @@
+{
+  "name": "random-joke-msg",
+  "version": "1.0.0",
+  "description": "Random joke messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan2742/random-joke-msg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juan2742/random-joke-msg/issue"
+  },
+  "homepage": "https://github.com/Juan2742/random-joke-msg#readme",
+  "keywords": [],
+  "author": "Juan Fonseca <fonsecajuan239@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-joke-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
